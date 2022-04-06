@@ -1,6 +1,13 @@
-{
+{ 
+  "scripts": {
+"start": "node index.js",
+"cypress:open": "cypress open"
+},
   "dependencies": {
     "express": "^4.17.3",
     "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.3"
   }
 }
